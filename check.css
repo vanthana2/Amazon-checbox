@@ -1,0 +1,32 @@
+body{
+    width: 90%;
+    height: 90%;
+    background-color: papayawhip;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.container{
+    width: 30%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f2abbb;
+    gap: 10px;
+    border-radius: 9px;
+}    
+
+.button{
+    width: 70%;
+    height: 20px;
+}button{
+    cursor: pointer;
+}
